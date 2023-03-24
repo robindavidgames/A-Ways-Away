@@ -2,11 +2,6 @@ iframe {
     border: none;
 }
 
-/* .gallery-image {
-    max-height: 200px;
-    max-width: 200px;
-} */
-
 /* Gallery things */
 .gallery {
     display: flex;
@@ -26,9 +21,10 @@ iframe {
   .gallery-item img {
     display: block;
     /* width: 100%; */
-    max-width: 100%;
-    max-height: 100%;
+    /* max-width: 100%; */
+    height: 100%;
     /* height: auto; */
+    width: auto;
     margin: auto;
   }
   
