@@ -2,23 +2,27 @@ iframe {
     border: none;
 }
 
+.background-override {
+  color: blue;
+}
+
 /* Gallery things */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* margin: 2rem 0; */
-  }
+}
   
-  .gallery-item {
+.gallery-item {
     position: relative;
     margin: 1rem;
     overflow: hidden;
     width: 300px;
     height: 300px;
-  }
+}
   
-  .gallery-item img {
+.gallery-item img {
     display: block;
     /* width: 100%; */
     /* max-width: 100%; */
@@ -26,9 +30,9 @@ iframe {
     /* height: auto; */
     width: auto;
     margin: auto;
-  }
+}
   
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -37,17 +41,19 @@ iframe {
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-  }
+}
   
-  .overlay-text {
+.overlay-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 2rem;
-  }
+}
   
-  .gallery-item:hover .overlay {
+.gallery-item:hover .overlay {
     opacity: 1;
-  }
+}
+
+/* End Gallery things */
