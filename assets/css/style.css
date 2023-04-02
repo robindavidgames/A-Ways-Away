@@ -49,7 +49,11 @@ iframe {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 2rem;
+    text-align: center;
+}
+
+.gallery-link {
+    color: #fff;
 }
   
 .gallery-item:hover .overlay {
