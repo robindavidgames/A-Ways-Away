@@ -6,6 +6,25 @@ iframe {
   color: blue;
 }
 
+/* About Me page */
+
+#profile-image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#profile-image-container {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.text-container {
+    max-width: 50%;
+}
+
+/* End About Me page */
+
 /* Gallery things */
 .gallery {
     display: flex;
