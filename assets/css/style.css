@@ -2,8 +2,18 @@ iframe {
     border: none;
 }
 
+/* ul {
+    margin-left: 30px;
+} */
+
 .background-override {
   color: blue;
+}
+
+.clear {
+    clear: both;
+    /* padding-top: 20px; */
+    /* margin-top: 20px; */
 }
 
 /* About Me page */
@@ -23,7 +33,30 @@ iframe {
     max-width: 50%;
 }
 
-/* End About Me page */
+/* Unpublished Games */
+
+.unpublished-game-container {
+    clear: both;
+}
+
+.unpublished-game-title {
+    margin-bottom: 1rem;
+}
+
+.unpublished-image-container {
+    width: 300px;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.unpublished-sample {
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
 
 /* Gallery things */
 .gallery {
