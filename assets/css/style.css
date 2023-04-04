@@ -111,4 +111,9 @@ iframe {
     opacity: 1;
 }
 
-/* End Gallery things */
+/* Game Pages */
+
+.game-sample-image {
+    max-width: 100%;
+    height: auto;
+}
