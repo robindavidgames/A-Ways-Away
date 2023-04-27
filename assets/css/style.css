@@ -14,6 +14,50 @@ iframe {
     clear: both;
 }
 
+/* Main page */
+
+.main-page-div {
+    max-width: 250px;
+    margin: auto;
+}
+
+.main-logo {
+    max-width: 250px;
+    height: auto;
+}
+
+.main-header {
+    width: 250px;
+    font-size: larger;
+    /* margin: auto; */
+    text-align: center;
+    color: navy;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main-page-nav-element {
+    width: 250px;
+    background-color: navy;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* .main-page-link {
+    color: white;
+    font-size: larger;
+    font-style: normal;
+} */
+
 /* About Me page */
 
 #profile-image {
