@@ -48,6 +48,7 @@ iframe {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .unpublished-sample {
