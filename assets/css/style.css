@@ -219,3 +219,9 @@ iframe {
         max-width: 100%;
     }
 }
+
+@media only screen and (max-width: 566px) {
+    .nav-item {
+        font-size: small;
+    }
+}
