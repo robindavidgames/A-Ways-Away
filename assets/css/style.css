@@ -97,18 +97,19 @@ iframe {
 }
 
 .unpublished-image-container {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     float: left;
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
     margin-right: 1rem;
+    overflow: hidden;
 }
 
 .unpublished-sample {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 100%;
+    max-height: auto;
     margin: auto;
 }
 
@@ -220,15 +221,6 @@ iframe {
         overflow: hidden;
         width: 200px;
         height: 200px;
-    }
-      
-    .overlay-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-align: center;
     }
 }
 
