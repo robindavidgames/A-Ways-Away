@@ -19,6 +19,7 @@ iframe {
 .main-page-div {
     max-width: 250px;
     margin: auto;
+    z-index: 999;
 }
 
 .main-logo {
@@ -29,7 +30,6 @@ iframe {
 .main-header {
     width: 250px;
     font-size: larger;
-    /* margin: auto; */
     text-align: center;
     color: navy;
     font-weight: 600;
@@ -52,11 +52,22 @@ iframe {
     text-decoration: none;
 }
 
-/* .main-page-link {
-    color: white;
-    font-size: larger;
-    font-style: normal;
-} */
+/* Main page background */
+
+.cs-slideshow, .cb-slideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+}
+
+.cb-slideshow:after {
+    content: '';
+    background: url(../images/dicebackground.jpg);
+    opacity: 0.1;
+}
 
 /* About Me page */
 
@@ -106,7 +117,6 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin: 2rem 0; */
 }
   
 .gallery-item {
