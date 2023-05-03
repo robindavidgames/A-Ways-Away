@@ -216,9 +216,7 @@ iframe {
 
     /* Portfoilio Page */
     .gallery-item {
-        position: relative;
         margin: 0.5rem;
-        overflow: hidden;
         width: 200px;
         height: 200px;
     }
@@ -226,6 +224,26 @@ iframe {
 
 @media only screen and (max-width: 566px) {
     .nav-item {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    /* Navbar title */
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    /* Portfolio page */
+    .gallery-item {
+        margin: 0.2rem;
+        width: 150px;
+        height: 150px;
+    }
+
+    .overlay-text {
         font-size: small;
     }
 }
